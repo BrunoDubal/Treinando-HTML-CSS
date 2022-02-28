@@ -1,25 +1,31 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: 'idroid';
     src: url('fontes/idroid.otf') format('opentype');
 }
 
 .body{
-    background-color: #84E1AD;
+    background-color: #EBE5C5;
     margin: 0px;
 }
 
 header{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #32B36B;
+    background-color: #299A5C;
+    height: 240px;
     padding-top: 10px;
     padding-bottom: 9px;
     color: aliceblue;
-    box-shadow: inset 0px -20px 20px 5px rgb(0 0 0 / 48%);
+    box-shadow: inset 0px -47px 56px 17px rgb(0 0 0 / 48%);
 }
 
 .h1header{
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    text-shadow: 1px 2px 2px black;
+
 }
 
 .pheader{
@@ -31,7 +37,7 @@ header{
 }
 
 .menuheader{
-    margin-top: 25px;
+    margin-top: 55px;
 }
 
 .menuheader > a{
@@ -46,9 +52,104 @@ header{
 
 .main{
     background-color: white;
-    width: 900px;
-    height: 1200px;
+    width: 1000px;
     margin: auto;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
+}
+
+.h1main{
+    font-family: 'idroid';
+    color: #1A5C38;
+}
+.ph1{
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2{
+    margin-top: 40px;
+    font-family: 'idroid';
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #84E1AD, #DDF3E6, #E9F7EF, #FFFFFF);
+}
+
+.main > p{
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.divimg{
+    text-align: center;
+}
+
+.p2sub1{
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+strong{
+    color: #1A5C38;
+}
+
+.link{
+    color: #1A5C38;
+    background-color: #83E1AD;
+    text-decoration: none;
+    font-size: large;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.video{
+    padding: 30px;
+    text-align: center;
+    background-color: #063D1E;
+}
+
+.aside{
+    background-color: #2d975d;
+    margin: 30px 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.tituloaside{
+    color: white;
+    background-color: #1A5C38;
+    margin: 0px;
+    padding: 20px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.aside > p{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+footer{
+    background-color: #063D1E;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    bottom: 0;
+}
+
+.footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer > p > a:hover{
+    text-decoration: underline;
+    color: #299A5C;
 }
