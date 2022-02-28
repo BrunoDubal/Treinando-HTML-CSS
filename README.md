@@ -1,2 +1,2 @@
-# Blog Bugdroid
- Construindo um pequeno blog sobre o bugdroid
+# Treinando HTML e CSS
+Treinando e exercitando HTML e CSS
