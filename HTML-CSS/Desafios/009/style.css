@@ -31,8 +31,8 @@ header{
 .pheader{
     text-align: center;
     margin: auto;
-    width: 480px;
-    height: 36px;
+    max-width: 480px;
+    max-height: 36px;
     font-size: 1.2em;
 }
 
@@ -44,18 +44,22 @@ header{
     text-decoration: none;
     color: white;
     padding: 10px;
+    transition-duration: 0.5s;
 }
 .menuheader > a:hover{
     background-color: #207446;
     border-radius: 7px;
+    color: black;
 }
 
 .main{
     background-color: white;
-    width: 1000px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 5px black;
 }
 
 .h1main{
@@ -72,7 +76,7 @@ h2{
     margin-top: 40px;
     font-family: 'idroid';
     color: #1A5C38;
-    background-image: linear-gradient(to right, #84E1AD, #DDF3E6, #E9F7EF, #FFFFFF);
+    background-image: linear-gradient(to right, #96ebbb, transparent);
 }
 
 .main > p{
@@ -83,6 +87,7 @@ h2{
 
 .divimg{
     text-align: center;
+    width: 100%;
 }
 
 .p2sub1{
@@ -115,7 +120,6 @@ strong{
 .aside{
     background-color: #2d975d;
     margin: 30px 20px;
-    padding-bottom: 5px;
     border-radius: 10px;
 }
 
@@ -130,8 +134,15 @@ strong{
 }
 
 .aside > p{
+    padding: 15px;
     text-indent: 25px;
     text-align: justify;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
 }
 
 footer{
